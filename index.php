@@ -12,7 +12,7 @@ $umurAdik = 15;
 
 echo "Nama adik saya <strong>$namaAdik</strong>. adik saya berusia $umurAdik tahun.<br>";
 
-$selisihumur = "$umur + $umurAdik";
+$selisihumur = $umur-$umurAdik;
 echo "Selisih usia saya dan adik saya adalah $selisihumur tahun.";
 
 ?>
