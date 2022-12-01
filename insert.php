@@ -29,7 +29,7 @@ $sql = "insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahi
 if(mysqli_query($con,$sql)){
     echo "Data berhasil ditambah";
 }else{
-    echo "Ada error". mysqli_error();
+    echo "Ada error". mysqli_error($con);
 }
 
 mysqli_close($con);
